@@ -1,27 +1,67 @@
-# LNMHacks 4.0 - 19th and 20th October, 2019
- 
-## Submission Procedure
-Read the following steps and guidelines properly for proper submission of your project. Missing out any step or performing it wrongly can lead to unsuccessful submission. 
+<h1 align=center><a href = "http://mlh-jaipur.azurewebsites.net/">
+ <img align=center width="25%" src="https://github.com/psifrous/Kryptonic/blob/master/images/KRYPTONIC.png" /></a>
+</h1>
 
-### Step 1
-#### Fork this repository
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)] 
+[![GitHub contributors](https://img.shields.io/github/contributors/psifrous/Kryptonic)]
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/psifrous/Kryptonic)]
 
-### Step 2
-#### Create a New Folder within the forked repository, with the 'folder name' being your 'team name'
+<p align="center">
+ <li>
+A digital cryptocurrency investment webApp which will help you decide in which coin to invest based on its history and trends, using machine learning on it.</li>
+ <li> When the user enters the coin he wants to invest in and the time for which he/she wants to invest, we train a personalized Prophet model on our Microsoft Azure machine and predict net profit in the form of <b>Kryptons</b>:diamond_shape_with_a_dot_inside:!! We can also compare multiple coins and show the best one to invest in. Everthing happens realtime in just a matter of some seconds!!!⏱️</li>
+<li><b>Kryptons</b>:diamond_shape_with_a_dot_inside:: It is statistical value developed by our team which tells us the confidence of investment, Higher the number of Kryptons, Higher is your chance of a good investment!</li>
+</p>
 
-## Contents of the folder
-+ The project directory.
-+ The presentation that you will be presenting while presenting your project before the judges.
-+ A text file that contains proper documentation. The documentation should contain:
-    - A description of your project.
-    - The contents of your project directory.
-    - Ways to host your project on the localhost.
-+ The name of the 'pptx' and 'text' files should also be the 'team name'.
+## Project information ℹ️
+- **Project Name**: Kryptonic
+- **Short Project Description**: _A digital cryptocurrency investment app which will help you decide in which coin to invest based on its history and trends, using machine learning on it._
+- **Team Name**:Pandas 🐼
+- **Team Members**: _Naman Bansal [@psifrous](https://github.com/psifrous), Swapnil Panwala [@panwalas](https://github.com/panwalas), Aniket Chowdhury [@aniket-chow](https://github.com/aniket-chow), Sahil Khandelwal [@sahilinjaipur](https://github.com/sahilinjaipur)_
+- **Repository Link**: https://github.com/psifrous/Kryptonic
+- **Labels**: Microsoft, Azure, Facebook, Machine Learning, MLH, cryptocurrency,cryptocompare, blockchain, influence the masses,webapp, Time series
+<h1 align=center><a href = "http://mlh-jaipur.azurewebsites.net/">
+ <img align=center width="25%" src="https://github.com/psifrous/Kryptonic/blob/master/images/click.png" /></a>
+</h1>
 
-### People with only hardware solution are required to submit only the 'pptx' and 'text' files. A link to the video demonstration of your working model should also be included in both the files.
+## Platforms used 📦
+<h3 align=center>
+ <img align=center width="20%" src="https://github.com/psifrous/Kryptonic/blob/master/images/azure.png" />
+</h3>
+This project was fully developed on the Azure platform
 
 
-### Step 3
-Create a Pull Request only after you have completed the entire project and do not wish to make any further changes. We will not be accepting more than one Pull Request from any team. \
-\
-You can complete your work on the local machine and then upload your project folder in the forked repository and proceed to create a Pull Request.
+- WebApp module of Azure to host the website(webapp) which is available at **http://mlh-jaipur.azurewebsites.net/**
+- Virtual Machine to keep our ML Model running on the cloud using Flask at 13.90.227.9
+- The FrontEnd was built using Facebook's ReactJS
+- The is on Azure is being done by Node's Express Server
+
+<h3 align=center>
+ <img align=center width="20%" src="https://github.com/psifrous/Kryptonic/blob/master/images/prophet.png" />
+</h3>
+<p align=center> Our ML algorithm is based upon Facebook's Prophet algorithm.Prophet tries to capture the seasonality in the past data and works well when the dataset is large.</p>
+
+## Project Synposis ⚛️
+
+Ever had a thought of investing money in a smart way?<br>
+Sshhh🤫! We have a solution!
+
+***Current Opportunity 🚀***<br>
+There are numerous ways to invest in a stock market... But! Don't you think it's differs from region to region and the market is quite saturated and common?<br>
+So we came up with **Kryptonic** a unique webApp that lets you compare different cryptocurrencies and suggests a personalised cryptocurrency for a given amount of time, based upon a Machine learning model... and all of it happens real-time!</n><br>
+
+## Local Deployment
+The project can be locally deployed using `nodemon index.js` in node-server folder after installing the required dependencies.
+
+## Contributors ✨
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/psifrous"><img src="https://avatars2.githubusercontent.com/u/36012704?s=460&v=4" width="100px;" alt="Naman Bansal"/><br /><sub><b>Naman Bansal</b></sub></a><br />
+    <td align="center"><a href="https://github.com/panwalas"><img src="https://avatars2.githubusercontent.com/u/39371808?s=460&v=4" width="100px;" alt="Swapnil Panwalas"/><br /><sub><b>Swapnil Panwala</b></sub></a><br />
+    <td align="center"><a href="https://github.com/aniket-chow"><img src="https://avatars3.githubusercontent.com/u/24915107?s=400&v=4" width="100px;" alt="Aniket Chowdhury"/><br /><sub><b>Aniket Chowdhury</b></sub></a><br />
+    <td align="center"><a href="https://github.com/sahilinjaipur"><img src="https://avatars0.githubusercontent.com/u/44058530?s=460&v=4" width="100px;" alt="Sahil Khandelwal"/><br /><sub><b>Sahil Khandelwal</b></sub></a><br />
+ </tr>
+</table>
+
+🔥This project was made for lnmhacks hackathon held at LNMIIT, Jaipur.
